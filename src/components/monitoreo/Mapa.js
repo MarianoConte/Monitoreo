@@ -29,7 +29,6 @@ const Mapa = () => {
                     />
                 </BaseLayer>
             </LayersControl>
-
         </MapContainer>
     );
 };
