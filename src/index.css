@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'CaviarDreams';
+  src: local('CaviarDreams'), url(./fonts/CaviarDreams/CaviarDreams.ttf) format('truetype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.logo {
+  font-family: 'CaviarDreams';
+  color: #fff;
+  font-size: 2.5em;
+  line-height: 1.6;
+}
+
+.prueba{
+  border: red solid 20px;
 }
